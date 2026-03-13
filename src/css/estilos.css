@@ -1,0 +1,118 @@
+body {
+  background: #0f131a;
+  color: #ffffff;
+  background: url(../images/bg.JPG);
+  font-family: "Roboto Mono", monospace;
+  line-height: 1.4;
+  padding: 32px 24px; /* 2rem 1.5rem */
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 48px; /* 3rem */
+  z-index: 99; /* pra garantir que o header sempre vai ficar por cima do background que vier da api */
+}
+
+.header h1 {
+  margin-bottom: 16px; /* 1rem */
+  font-size: 48px; /* 3rem */
+}
+
+.subtitle {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 19.2px; /* 1.2rem */
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  z-index: 99; /* pra garantir que o container sempre vai ficar por cima do background que vier da api */
+}
+
+.card {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px; /* 1rem */
+  padding: 32px; /* 2rem */
+  margin-bottom: 32px; /* 2rem */
+}
+
+.card-header {
+  text-align: center;
+  margin-bottom: 32px; /* 2rem */
+  font-size: 20.8px; /* 1.3rem */
+}
+
+.form-group textarea {
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff; /* cor do texto digitado pelo usuário */
+  width: 100%;
+  min-height: 120px;
+  padding: 16px; /* 1rem */
+  border: 1px solid #474646;
+  border-radius: 8px; /* 0.5rem */
+  font-size: 16px; /* 1rem */
+  margin-bottom: 20px;
+}
+
+/* focus - pseudoclass */
+.form-group textarea:focus {
+  outline: none; 
+  border-color: #a655f7;
+}
+
+.form-group textarea::placeholder {
+  color: #a19e9e;
+}
+
+.form-group .btn-magic {
+  width: 100%;
+  padding: 16px 32px; /* 1rem 2rem */
+  background: linear-gradient(90deg, #a655f7 0%, #ff80aa 100%);
+  color: white;
+  border: none;
+  border-radius: 8px; /* 0.5rem */
+  font-size: 17.6px; /* 1.1rem */
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form-group .btn-magic:hover {
+	transform: translateY(-2px);
+}
+
+.preview-card {
+	display: none;
+}
+
+/* Grid de código */
+.code-grid {
+	display: flex;
+	gap: 24px; /* 1.5rem */
+}
+
+.code-card {
+	background-color: #21242a;
+	border: 1px solid #ffffff33;
+	border-radius: 16px; /* 1rem */
+	padding: 24px; /* 1.5rem */
+	width: 50%;
+}
+
+.code-title {
+	font-size: 20px; /* 1.25rem */
+	margin-bottom: 16px; /* 1rem */
+}
+
+.code-block {
+	background: #0a0c10;
+	color: #5eead4;
+	border-radius: 8px; /* 0.5rem */
+	padding: 16px; /* 1rem */
+	font-size: 14px; /* 0.875rem */
+	/* esses conceitos são pra deixar a visualização do código mais agradável */
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
