@@ -10,6 +10,15 @@ O Fundo Mágico é uma aplicação web que permite aos usuários gerar backgroun
 2.  **Gere o código:** Ao clicar no botão "Gerar Background Mágico", a aplicação envia a descrição para uma API de IA.
 3.  **Visualize e utilize:** A IA retorna o código HTML e CSS correspondente, que é exibido na tela. O usuário pode então copiar e colar o código em seus próprios projetos.
 
+### Screenshot
+
+![Design do projeto](./src/design/mobile-design.png)
+
+### Links
+
+- Solução no Repositório: [Acesse o repositório aqui](https://github.com/jsales25/gerador-de-backgrounds.git)
+- Live Site: [Acesse o site aqui](https://jsales25.github.io/gerador-de-backgrounds/)
+
 ## Tecnologias Utilizadas
 
 *   **HTML5:** Estrutura da página.
